@@ -1,0 +1,7 @@
+--- 
+fr-CA:
+  remit_to:
+    registered_company:
+      registration_authority: "Numéro d'inscription de la PST/TVQ"
+      tooltips:
+        registration_authority: "Entrez votre numéro d'inscription PST/TVQ (le cas échéant)"

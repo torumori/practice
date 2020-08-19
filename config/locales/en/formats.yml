@@ -1,0 +1,145 @@
+en:
+  number:
+    format:
+      separator: .
+      delimiter: ","
+      precision: 3
+      significant: false
+      strip_insignificant_zeros: false
+    currency:
+      format:
+        format: "%u%n"
+        unit: $
+        separator: .
+        delimiter: ","
+        precision: 2
+        significant: false
+        strip_insignificant_zeros: false
+    percentage:
+      format:
+        delimiter: ""
+        format: "%n%"
+        precision: 0
+    precision:
+      format:
+        delimiter: ""
+    human:
+      format:
+        delimiter: ""
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          kb: KB
+          mb: MB
+          gb: GB
+          tb: TB
+      decimal_units:
+        format: "%n %u"
+        units:
+          unit: ""
+          thousand: Thousand
+          million: Million
+          billion: Billion
+          trillion: Trillion
+          quadrillion: Quadrillion
+  time:
+    am: "am"
+    pm: "pm"
+    formats:
+      default: "%m/%d/%y"
+      long_informal: "%I:%M %p on %m/%d/%y"
+      longer_informal: "on <b>%m/%d/%y</b> at <b>%I:%M %p</b>"
+      short: "%m/%d/%y"
+      mm-dd-yy: "%m-%d-%y"
+      mmddyyyy: "%m/%d/%Y"
+      mm-dd-yyyy: "%m-%d-%Y"
+      time_only: "%I:%M %p"
+      long: "%m/%d/%y %I:%M %p"
+      long_upper: "%m/%d/%y %I:%M %P"
+      long_w_zone: "%m/%d/%y %I:%M %p %z"
+      long_w_secs_zone: "%m/%d/%y %I:%M:%S %p %z"
+      very_short: "%e %b"
+      month_only: "%b"
+      zone_only: "%Z"
+      sourcing_invitation: "%A, %d %B %Y  %I:%M %p %Z"
+    input:
+      formats:
+        - :default
+        - :long
+        - :short
+        - :mm-dd-yy
+        - :mmddyyyy
+        - :mm-dd-yyyy
+  date:
+    abbr_day_names:
+      - Sun
+      - Mon
+      - Tue
+      - Wed
+      - Thu
+      - Fri
+      - Sat
+    abbr_month_names:
+      - ~
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - May
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Oct
+      - Nov
+      - Dec
+    day_names:
+      - Sunday
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
+    formats:
+      javascript_date_format: mm/dd/y
+      default: "%m/%d/%y"
+      mm-dd-yy: "%m-%d-%y"
+      mmddyyyy: "%m/%d/%Y"
+      mm-dd-yyyy: "%m-%d-%Y"
+      month_year: "%m/%Y"
+      day_month: "%m/%d"
+      short: "%b %d"
+      long: "%B %d, %Y"
+    input:
+      formats:
+        - :default
+        - :long
+        - :short
+        - :mm-dd-yy
+        - :mmddyyyy
+        - :mm-dd-yyyy
+    month_names:
+      - ~
+      - "January"
+      - "February"
+      - "March"
+      - "April"
+      - "May"
+      - "June"
+      - "July"
+      - "August"
+      - "September"
+      - "October"
+      - "November"
+      - "December"
+    order:
+      - :year
+      - :month
+      - :day

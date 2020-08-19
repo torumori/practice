@@ -1,0 +1,7 @@
+--- 
+en-CA:
+  remit_to:
+    registered_company:
+      registration_authority: PST/QST Registration Number
+      tooltips:
+        registration_authority: PST/QST Registration Number (if applicable)
