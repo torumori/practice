@@ -1,0 +1,12 @@
+--- 
+repository: practice
+branches: 
+  - master
+source_locale_locations:
+  - 'config/locales/en'
+exclude_all:
+  - 'config/locales/zzz_global_compliance'
+  - 'config/locales/en/formats.yml'
+  - 'config/locales/en/models/unspsc_classifications.en.yml'
+  - 'config/locales/en/models/unspsc_classifications_3.en.yml'
+  - 'config/locales/en/views/isic_classification.yml'
