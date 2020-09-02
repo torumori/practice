@@ -1,0 +1,17 @@
+en:
+  mailer:
+    addon:
+      subject: "A User has expressed interest in"
+      info_line: "Information Input:"
+      email_line: "Email:"
+      message: "Message:"
+      user_account_info_line: "User Account Information:"
+      first_name_line: "First Name:"
+      last_name_line: "Last Name:"
+      name_line: "CSP Customer Given Name:"
+      acc_email_line: "Account Email:"
+      work_num_line: "Work Number:"
+      mobile_num_line: "Mobile Number:"
+      fax_num_line: "Fax Number:"
+      tax_id_line: "Tax ID:"
+      region_line: "Region:"
