@@ -1,0 +1,537 @@
+en:
+  activerecord:
+    errors:
+      messages:
+        invalid_field: "is invalid"
+      models:
+        customer:
+          attributes:
+            po_email:
+              invalid: "is not a valid email address. Example: coupa@coupamail.edu"
+              blank: 'must exist when PO method is Email'
+        invitation:
+          messages:
+            user_exists: "is already a user"
+        item:
+          attributes:
+            picture_content_type:
+              invalid: "must be an image file"
+        password:
+          messages:
+            email_has_no_user: "A user was not found for that email address."
+        supplier:
+          attributes:
+            po_method:
+              inclusion: "must be one of cxml, email, prompt"
+            tax_id: 
+              invalid: "Invalid format. Example: 123-45-6789"
+            duns: 
+              invalid: "Invalid format. Example: 12-345-6789"
+            logo:
+              invalid: "must be an image file"
+        user:
+          attributes:
+            phone_mobile:
+              invalid_number_or_sms_format: "Invalid number or SMS format"
+        catalog:
+          messages:
+            date_range: "'End date' must be after 'Start date'"
+            date_range_future_end: "'End date' cannot be before today"
+        supplier_merge:
+          attributes:
+            request_note:
+              blank: "Note required"
+          must_be_not_the_same_supplier: "Target supplier may not be the same as supplier"
+        contact:
+          messages:
+            invalid_sms_phone: "Not a valid SMS phone."
+        bank_account:
+          attributes:
+            transit_code_type:
+              blank: "routing (bank code) type must be selected"
+    models:
+      address:
+        one: "Address"
+        other: "Addresses"
+      address_assignment:
+        one: "Address Assignment"
+        other: "Address Assignments"
+      bank_account: 
+        one: "Banking Information"
+        other: "Banking Information"
+      catalog:
+        one: "Catalog"
+        other: "Catalogs"
+      contact:
+        one: "Contact"
+        other: "Contacts"
+      country:
+        one: "Country"
+        other: "Countries"
+      csn_notification:
+        one: "CSP Notification"
+        other: "CSP Notifications"
+      currencies_customer: 
+        one: "Currency-Customer Mapping"
+        other: "Currency-Customer Mappings"
+      currency:
+        one: "Currency"
+        other: "Currencies"
+      customer:
+        one: "Customer"
+        other: "Customers"
+      customer_contact:
+        one: "Customer Contact"
+        other: "Customer Contacts"
+      customer_remit_to_address:
+        one: "Customer Remit-To Address"
+        other: "Customer Remit-To Addresses"
+      data_background_job_source:
+        one: "Data Background Job Source"
+        other: "Data Background Job Sources"
+      data_file_source:
+        one: "Data File Source"
+        other: "Data File Sources"
+      data_source:
+        one: "Data Source"
+        other: "Data Sources"
+      enterprise_notification:
+        one: "Enterprise Notification"
+        other: "Enterprise Notifications"
+      invitation:
+        one: "Invitation"
+        other: "Invitations"
+      isic_classification:
+        one: "ISIC Classification"
+        other: "ISIC Classifications"
+      item:
+        one: "Item"
+        other: "Items"
+      login_token:
+        one: "Login Token"
+        other: "Login Tokens"
+      notification:
+        one: "Notification"
+        other: "Notifications"
+      notification_preference:
+        one: "Notification Preference"
+        other: "Notification Preferences"
+      notifier_event:
+        one: "Notifier Event"
+        other: "Notifier Events"
+      password:
+        one: "Password"
+        other: "Passwords"
+      po_method:
+        one: "Purchase Order Method"
+        other: "Purchase Order Methods"
+      punchout_configuration:
+        one: "Punchout Configuration"
+        other: "Punchout Configurations"
+      remit_to_address:
+        one: "Remit-To Address"
+        other: "Remit-To Addresses"
+      role:
+        one: "Role"
+        other: "Roles"
+      setup:
+        one: "Setup"
+        other: "Setups"
+      supplier:
+        one: "Supplier"
+        other: "Suppliers"
+      supplier_merge:
+        one: "Supplier Merge"
+        other: "Supplier Merges"
+      support_user:
+        one: "Support User"
+        other: "Support Users"
+      sync_notification_preference:
+        one: "Sync Notification Preference"
+        other: "Sync Notification Preferences"
+      tax_registration:
+        one: "Tax Registration"
+        other: "Tax Registrations"
+      tax_registration_vat:
+        one: "Tax Registration (VAT)"
+        other: "Tax Registrations (VAT)"
+      unspsc_classification:
+        one: "UNSPSC Classification"
+        other: "UNSPSC Classifications"
+      upload_error:
+        one: "Upload Error"
+        other: "Upload Errors"
+      user:
+        one: "User"
+        other: "Users"
+      user_notification:
+        one: "User Notification"
+        other: "User Notifications"
+    attributes:
+      address:
+        name: "Name"
+        invoice_headers: "Invoice Headers"
+        account_types: "Charts of Accounts"
+        address_owner: "Address Owner"
+        requisition_headers: "Requisition Headers"
+        order_headers: "Order Headers"
+        quote_request_lines: "Quote Request Lines"
+        address_assignments: "Address Assignments"
+        lng: "Lng"  # Longitude
+        lat: "Lat"  # Latitude
+        address_owner_type: "Address Owner Type"
+        warehouses: "Warehouses"
+        users: "Users"
+        requisition_line_templates: "Requisition Line Templates"
+        attention: "Attention"
+        suppliers: "Suppliers"
+        position: "Position"
+        api_editable: "API Editable"
+        model: "Model"
+        col_name: "Col Name"
+        show_in_catalog: "Show In Catalog"
+        required_for_approval: "Required For Approval"
+        parameters: "Parameters"
+        defaults_from: "Defaults From"
+        supplier_editable: "Supplier Editable"
+        internal: "Internal"
+        causes_revision: "Causes Revision"
+        supplier_viewable: "Supplier Viewable"
+        field_name: "Field Name"
+        remit_to_code: "Remit-To Code"
+        location_code: "Location Code"
+        vat_number: "Tax/VAT Number"
+        vat_country: "Tax/VAT Country"
+        address: "Address"
+        street: "Street"
+        street1: "Address Line 1"
+        street2: "Address Line 2"
+        city: "City"
+        state: "State"
+        postal_code: "Postal Code"
+        country: "Country"
+        tax_id: "Tax ID #"
+        duns: "DUNS #"
+      address_assignment:
+        addressable: "Addressable"
+        addressable_type: "Addressable Type"
+      bank_account:
+        remit_to_address: "Remit-To Address"
+        bank_name: "Bank Name"
+        address: "Address"
+        city: "City"
+        state: "State"
+        phone_number: "Phone"
+        phone_fax: "Fax"
+        name_on_account: "Name on account"
+        bank_routing_number: "Routing number (ABA)"
+        account_number: "Account number"
+        iban: "IBAN"
+        sort_code: "Sort Code"
+        resident_account: 'Resident Account'
+        routing_number: 'Routing Number'
+        bank_code: 'Bank Code'
+        bsb: 'BSB'
+        ifsc: 'IFSC'
+        transit_number_and_institution_number: 'Transit Number And Institution Number'
+        swift_no: "SWIFT No."
+        bank_form: "Bank Form"
+        banking_setup: "Banking Setup"
+        encrypted_bank_routing_number: "Encrypted Bank Routing Number"
+        encrypted_bank_routing_number_iv: "Encrypted Bank Routing Number IV"
+        encrypted_bank_routing_number_salt: "Encrypted bank Routing Number Salt"
+        encrypted_account_number: "Encrypted Account Number"
+        encrypted_account_number_iv: "Encrypted Account Number IV"
+        encrypted_account_number_salt: "Encrypted Account Number Salt"
+        encrypted_iban: "Encrypted IBAN"
+        encrypted_iban_iv: "Encrypted IBAN IV"
+        encrypted_iban_salt: "Encrypted IBAN Salt"
+        encrypted_sort_code: "Encrypted Sort Code"
+        encrypted_sort_code_iv: "Encrypted Sort Code IV"
+        encrypted_sort_code_salt: "Encrypted Sort Code Salt"
+        encrypted_swift_number: "Encrypted Swift Number"
+        encrypted_swift_number_iv: "Encrypted Swift Number IV"
+        encrypted_swift_number_salt: "Encrypted Swift Number Salt"
+        bank_form_file_name: "Bank Form File Name"
+        bank_form_content_type: "Bank Form Content Type"
+        bank_form_file_size: "Bank Form File Size"
+        bank_form_updated_at: "Bank Form Updated At"
+      catalog:
+        name: "Name"
+        enterprise_catalog: "Enterprise Catalog"
+        start_date: "Starts"
+        end_date: "Expires"
+        status: "Status"
+      contact:
+        photo: "Photo"
+        position: "Position"
+        api_editable: "API Editable"
+        model: "Model"
+        col_name: "Col Name"
+        show_in_catalog: "Show In Catalog"
+        required_for_approval: "Required For Approval"
+        defaults_from: "Defaults From"
+        supplier_editable: "Supplier Editable"
+        internal: "Internal"
+        causes_revision: "Causes Revision"
+        supplier_viewable: "Supplier Viewable"
+        field_name: "Field Name"
+        first_name: "First Name"
+        last_name: "Last Name"
+        name: "Name"
+        email: "Email"
+        phone_work: "Work Phone"
+        phone_mobile: "Mobile Phone"
+        phone_fax: "Fax Number"
+        duns: "DUNS #"
+        tax_id: "Tax ID #"
+        supplier: "Supplier"
+        supplier_id: "Supplier"
+      country:
+        name: "Name"
+        code: "Code"
+        position: "Position"
+      currency:
+        name: "Name"
+        code: "Code"
+        min_accountable_unit: "Min. Accountable Unit"
+        symbol: "Symbol"
+        enabled_flag: "Enabled"
+      customer:
+        company_name: "Company Name"
+        po_method: "Purchase Order Method"
+        instance_url: "Instance URL"
+        api_key: "API Key"
+        enterprise_supplier_id: "Enterprise Supplier ID"
+        enterprise_supplier_secret: "Enterprise Supplier Secret"
+        logo_file_name: "Logo File Name"
+        logo_content_type: "Logo Content Type"
+        logo_file_size: "Logo File Size"
+        supports_new_catalogs: "Supports New Catalogs"
+        profile_background_img: "Profile Background Image"
+        supplier_name: "Supplier Name"
+        enterprise_auth_type: "Enterprise Authentication Type"
+        enter_response_key: "Enter Response Key"
+        po_email: "PO Email"
+        cxml_url: "CXML URL"
+        cxml_domain: "CXML Domain"
+        cxml_identity: "CXML Identity"
+        cxml_supplier_domain: "CXML Supplier Domain"
+        cxml_supplier_identity: "CXML Supplier Identity"
+        cxml_secret: "CXML Secret"
+        cxml_protocol: "CXML Protocol"
+        tax_id: "Tax ID #"
+        duns: "DUNS #"
+      data_source:
+        file: "File"
+        source_for: "Source For"
+        lock_version: "Lock Version"
+        owner_type: "Owner Type"
+        owner: "Owner"
+        error_text: "Error Text"
+        file_file_name: "File Name"
+        file_file_size: "File Size"
+        result_text: "Result Text"
+        progress: "progress"
+        job_key: "Job Key"
+        return_url: "Return URL"
+        queue_opts: "Queue Options"
+        progress_metadata: "Progress Metadata"
+        upload_errors_count: "Upload Errors Count"
+      invitation:
+        first_name: "First Name"
+        last_name: "Last Name"
+        email: "Email"
+        invite_code: "Invite Code"
+        source: "Source"
+        supplier_name: "Company"
+        enterprise_instance_url: "Enterprise Instance URL"
+        enterprise_supplier_id: "Enterprise Supplier ID"
+        enterprise_supplier_name: "Enterprise Supplier Name"
+        from_email: "From Email"
+        email_text: "Email Text"
+        enterprise_api_key: "Enterprise API Key"
+        enterprise_duns: "Enterprise DUNS #"
+        enterprise_tax_id: "Enterprise Tax ID #"
+        contact: "Contact"
+        perms_and_access: "Permissions and Access"
+        enter_response_key: "Enter Response Key"
+      isic_classification:
+        section: "Section"
+        division: "Division"
+        isic_group: "ISIC Group"
+        classification: "Classification"
+      item:
+        name: "Name"
+        part_number: "Part Number"
+        description: "Description"
+        price: "Price"
+        manufacturer: "Manufacturer"
+        lead_time: "Lead Time"
+        picture_file_name: "Picture File Name"
+        picture_file_size: "Picture File Size"
+        unspsc_classification: "UNSPSC Classification"
+      login_token:
+        token: "Token"
+      notification_preference:
+        notifier_type: "Notifier Type"
+        notifier: "Notifier"
+        notifier_data: "Notifier Data"
+        is_done: "Is Done"
+      notifier_event:
+        reset_code: "Reset Code"
+        expiration_date: "Expiration Date"
+      password:
+        email: "Email"
+        user: "User"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
+      po_method:
+        supplier: "Supplier"
+        email: "Email"
+        cxml_url: "URL"
+        cxml_domail: "Domain"
+        cxml_identity: "Identity"
+        cxml_supplier_domain: "Supplier Domain"
+        cxml_supplier_identity: "Supplier Identity"
+        cxml_secret: "CXML Secret"
+        cxml_protocol: "Protocol"
+      punchout_configuration:
+        customer: "Customer"
+        name: "Name"
+        description: "Description"
+        enterprise_punchout_side_id: "Enterprise Punchout Site ID"
+        punchout_url: "URL"
+        supplier_domain: "Supplier Domain"
+        supplier_identity: "Supplier Identity"
+        shared_secret: "Shared Secret"
+        buyer_domain: "Buyer Domain"
+        buyer_identity: "Buyer Identity"
+        protocol: "Protocol"
+      remit_to_address:
+        name: "Name"
+        remit_to_code: "Remit-To Code"
+        remit_to_name: "Remit-To Name"
+        assigned: "Assigned"
+        contact_firstname: "First Name"
+        contact_lastname: "Last Name"
+        email: "Email"
+        phone_work: "Work Phone"
+        phone_mobile: "Mobile Phone"
+        phone_fax: "Fax Number"
+        preferred_language: "Preferred Language"
+        website: "Web Site"
+        street: "Street"
+        street1: "Address Line 1"
+        street2: "Address Line 2"
+        city: "City"
+        state: "State"
+        postal_code: "Postal Code"
+        country: "Country"
+        disclosure_header_1: "Disclosure Header 1"
+        disclosure_header_2: "Disclosure Header 2"
+        disclosure_header_3: "Disclosure Header 3"
+        disclosure_content_1: "Disclosure Content 1"
+        disclosure_content_2: "Disclosure Content 2"
+        disclosure_content_3: "Disclosure Content 3"
+        can_be_remit_to: Use this address for Remit To
+        can_be_ship_from: Use this address for Ship From
+        bank_name: "Bank Name"
+        name_on_account: "Name on account"
+        currency: "Currency"
+        account_number: "Account number"
+        iban: "IBAN"
+        sort_code: "Sort Code"
+        resident_account: 'Resident Account'
+        routing_number: 'Routing Number'
+        bank_code: 'Bank Code'
+        swift_number: "SWIFT No."
+        bsb: 'BSB'
+        ifsc: 'IFSC'
+        bank_account_type: "Bank Account Type"
+        transit_number_and_institution_number: 'Transit Number And Institution Number'
+      setup:
+        key: "Key"
+        value: "Value"
+      supplier:
+        name: "Name"
+        corporate_url: "Corporate URL"
+        storefront_url: "Storefront URL"
+        parent: "Parent"
+        parent_id: "Parent"
+        status: "Status"
+        invoice_matching_level: "Invoice Matching Level"
+        po_method: "PO Method"
+        commodity: "Commodity"
+        commodity_id: "Commodity"
+        website: "Web Site"
+        payment_term: "Payment Term"
+        paymnet_term_id: "Payment Term"
+        shipping_term: "Shipping Term"
+        shipping_term_id: "Shipping Term"
+        po_email: "PO Email"
+        primary_address: "Primary Address"
+        year_established: "Year Established"
+        number_of_employees: "Employees"
+        logo_file_name: "Logo File Name"
+        logo_content_type: "Logo Content Type"
+        logo_file_size: "Logo File Size"
+        logo_url: "Logo URL"
+        short_description: "Short Description"
+        owner: "Owner"
+        profile_background_img: "Profile Background Image"
+        linkedin_url: "LinkedIn URL"
+        twitter_url: "Twitter URL"
+        facebook_url: "Facebook URL"
+        alibaba_url: "Alibaba URL"
+        description: "About"
+        logo: "Logo"
+        industry: "Industry"
+        tax_id: "Tax ID #"
+        duns: "DUNS #"
+      supplier_merge:
+        target_supplier: "Target Supplier"
+        defer_to_target: "Defer to Target"
+        request_note: "Note"
+        reject_note: "Reject Note"
+      tax_registration:
+        tax_country: "Tax Country"
+        prefix: "Prefix"
+        tax_number: "VAT ID"
+        disclosure: "Disclosure"
+        skip_tax_number: "I don't have a VAT/GST Number"
+        local_tax_number: "Local Tax Number"
+      tax_registration_vat:
+        tax_number: "VAT ID"
+      unspsc_classification:
+        commodity: "Commodity"
+      upload_error:
+        data_source: "Data Source"
+        row: "Row"
+        first_column: "First Column"
+        field: "Field"
+        value: "Value"
+        field_errors: "Field Errors"
+      user:
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
+        crypted_password: "Encrypted Password"
+        current_password: "Current Password"
+        salt: "Salt"
+        remember_token: "Remember Token"
+        remember_token_expires_at: "Remember Token Expiration Date"
+        phone_mobile: "Mobile Phone Number"
+      user_notification:
+        notification: "Notification"
+      registered_company:
+        name: Company Name
+        country: "Country"
+        sole_registration_code: Sole Registration Code
+      supplier_profile:
+        legal_entities_count: Legal Entity
+        banking_info_available: Banking Information
+        diversity_available: Diversity Information
+        ship_to_locations_available: Ship To Locations
+        accelerate_enabled: Accelerate Enabled
+        bribery_policy_available: Bribery Policy
