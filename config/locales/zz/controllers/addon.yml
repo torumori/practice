@@ -1,0 +1,23 @@
+en:
+  addon:
+    interest: "Your interest has been acknowledged. We will reach out to you shortly!"
+    error: "There was an error in your request."
+    coupa_advantage:
+      title: "Coupa Advantage"
+    invoice_finance:
+      title: "Invoice Financing"
+    coupa_accelerate:
+      title: "Coupa Accelerate"
+    coupa_bsm:
+      title: "Coupa BSM"
+    enhance_profile:
+      title: "Enhance Profile"
+    stripe_payments:
+      title: "Stripe Payments"
+    supplier_perks:
+      title: "One-Click Savings"
+    new:
+      default_message: 
+        coupa_advantage: "I am interested in Coupa Advantage."
+        invoice_finance: "I am interested in Invoice Financing."
+        coupa_bsm: "I am interested in Coupa BSM."
