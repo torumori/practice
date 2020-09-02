@@ -1,0 +1,11 @@
+en:
+  pages_for_announcement:
+    advanced_ship_notices: ASN
+    catalogs: Catalogs
+    invoices: Invoices
+    orders: Orders
+    payments: Payments
+    suppliers: Profile
+    work_confirmations: Service/Time Sheets
+  announcement:
+    view_all_announcements: View All Announcements
