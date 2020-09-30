@@ -1,0 +1,11 @@
+en:
+  bank_account:
+    validation_messages:
+      generic:
+        bank_routing_number: 'All digits. Exact lengths will vary depending on Bank Country'
+        sort_code: 'All digits. Exact lengths will vary depending on Bank Country'
+        account_number: "must be 4-17 digits (28 for China)"
+        iban: "Must be 5-34 alphanumeric characters without spaces"
+        swift_number: "Must be 8 or 11 characters (first 6 characters must be letters)"
+        transit_code: "All digits. Exact lengths will vary depending on Bank Country"
+
