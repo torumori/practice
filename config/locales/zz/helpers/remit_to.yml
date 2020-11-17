@@ -1,0 +1,14 @@
+en:
+  remit_to:
+    countries_tax_types:
+      default: 'VAT ID'
+      us: "Tax ID"
+      sg: "GST ID"
+      au: "ABN"
+      ic: "CIF ID"
+      jp: 'Tax ID'
+      my: "SST ID"
+      mm: 'Commercial Tax ID'
+      pk: 'Sales Tax ID'
+    skip_tax_number_label: "I don't have %{tax_label} Number"
+    skip_tax_number_default: "I don't have a VAT/GST Number"
