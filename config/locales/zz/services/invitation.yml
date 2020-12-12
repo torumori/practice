@@ -1,0 +1,7 @@
+en:
+  invitation:
+    info_sent: "An invitation has been sent to %{email}. Please check your email and follow the instructions to complete the process."
+    email_resent: "An email has been resent to %{email}.  Please check your email for the link to create your account."
+    invitation_resent: "Already invited %{email}. Re-sent invitation."
+    already_connected: "%{email} is already connected to %{supplier}."
+    already_connected_supplier_fallback: "that supplier"
