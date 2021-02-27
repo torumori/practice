@@ -1,0 +1,6 @@
+en:
+  data_file_source:
+    too_many_rows: "System cannot process upload files with more than %{max_rows} rows."
+    invalid_row: "Row corrupt or invalid."
+    csv_error: "We encountered the following error while verifying the file as CSV: %{error} Please review the template provided and try again."
+    invalid_file: "Invalid file upload. Please review the template provided and try again."
