@@ -1,0 +1,8 @@
+en:
+  address:
+    other_addresses: "Other Addresses"
+    add: "Add an address..."
+    save: "Save Address"
+  addresses:
+    subdivision_picker:
+      invalid_subdivision_warning: "Choose the correct %{field_name} unless you need to keep the current value."
