@@ -1,0 +1,6 @@
+en:
+  mailer:
+    email_changed:
+      summary: "Email Contact Information Recently Updated on Coupa"
+      details: "The Primary Contact email was just updated on your company's account with Coupa. This Contact information is important and can be used by buying organizations. If this change is expected you can ignore this message."
+      view_profile: "View Profile"
