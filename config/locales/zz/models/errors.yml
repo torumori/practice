@@ -1,0 +1,62 @@
+en:
+  errors:
+    attributes:
+      phone:
+        invalid: "Invalid format. Example: +1 123-456-7890"
+      phone_work:
+        invalid: "Invalid format. Example: +1 123-456-7890"
+      phone_mobile:
+        invalid: "Invalid format. Example: +1 123-456-7890"
+      phone_fax:
+        invalid: "Invalid format. Example: +1 123-456-7890"
+      email:
+        invalid: "Invalid format. Example: coupa@coupamail.edu"
+      city:
+        invalid: "-No numbers or special characters"
+      state:
+        invalid: "-No numbers or special characters"
+      postal_code:
+        invalid: "-Only use letters, numbers, spaces, or dashes"
+    messages:
+      url: "is not a valid URL. Example: https://www.example.com"
+      # taken from rails/activemodel/lib/active_model/locale/en.yml
+      # included for reference
+      model_invalid: "Validation failed: %{errors}"
+      inclusion: "is not included in the list"
+      exclusion: "is reserved"
+      invalid: "is invalid"
+      confirmation: "doesn't match %{attribute} Confirmation"
+      accepted: "must be accepted"
+      empty: "can't be empty"
+      blank: "can't be blank"
+      present: "must be blank"
+      too_long:
+        one: "is too long (maximum is 1 character)"
+        other: "is too long (maximum is %{count} characters)"
+      too_short:
+        one: "is too short (minimum is 1 character)"
+        other: "is too short (minimum is %{count} characters)"
+      wrong_length:
+        one: "is the wrong length (should be 1 character)"
+        other: "is the wrong length (should be %{count} characters)"
+      not_a_number: "is not a number"
+      not_an_integer: "must be an integer"
+      greater_than: "must be greater than %{count}"
+      greater_than_or_equal_to: "must be greater than or equal to %{count}"
+      equal_to: "must be equal to %{count}"
+      less_than: "must be less than %{count}"
+      less_than_or_equal_to: "must be less than or equal to %{count}"
+      other_than: "must be other than %{count}"
+      odd: "must be odd"
+      even: "must be even"
+      # taken from rails/activerecord/lib/active_record/locale/en.yml
+      # included for reference
+      required: "must exist"
+      taken: "has already been taken"
+      compliance_field_missing: "must be present on %{country} compliant invoice"
+      must_be_exactly_xxx_digits: must be exactly %{limit} digits
+      must_be_between_xxx_and_xxx_digits: must be between %{small} and %{large} digits
+      must_be_at_least_xxx_digits: must be at least %{limit} digits
+      must_be_xxx_yyy_alphanumeric_characters_without_spaces: must be %{limit_1}-%{limit_2} alphanumeric characters without spaces
+      must_be_xxx_yyy_digits: must be %{limit_from}-%{limit_to} digits
+      must_be_xxx_or_yyy_characters_first_zzz_characters_must_be_letters: must be %{limit_1} or %{limit_2} characters (first %{limit_3} characters must be letters)
