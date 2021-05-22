@@ -1,0 +1,178 @@
+en:
+  defaults:
+    click_here: "Click here."
+    site_title: "Coupa Supplier Portal"
+    site_title_subtitle: "Coupa Supplier Portal - %{subtitle}"
+    copyright: "© 2006-%{this_year} Coupa Software Incorporated"
+    parenthesis_link_html: "(%{link})"
+    privacy_policy: "Privacy Policy"
+    terms_of_use: "Terms of Use"
+    home: "Home"
+    announcements: "Announcements"
+    company_info: "Company Info"
+    completed: "Completed"
+    privacy_policy: "Privacy Policy"
+    terms_of_use: "Terms of Use"
+    error: "Error"
+    unknown_lcase: "unknown"
+    updated: "Updated"
+    close: "Close"
+    open: "Open"
+    search: "Search"
+    create: "Create"
+    add: "Add"
+    remove: "Remove"
+    delete: "Delete"
+    accept: "Accept"
+    reject: "Reject"
+    save: "Save"
+    save_to: "Save to"
+    save_changes: "Save changes"
+    saved: "Saved!"
+    save_anyway: "Save anyway"
+    update: "Update"
+    submit: "Submit"
+    skip: "Skip"
+    edit: "Edit"
+    show: "Show"
+    destroy: "Destroy"
+    manage: "Manage"
+    ok: "OK"
+    cancel: "Cancel"
+    enable: "Enable"
+    disable: "Disable"
+    select: "Select"
+    select_all: "Select all"
+    none_selected: "None selected"
+    all: "All"
+    none: "None"
+    uploaded: "Uploaded"
+    loading: "Loading ..."
+    export_to_excel: "Export to Excel"
+    next: "Next"
+    previous: "Previous"
+    back: "Back"
+    see_all: "See all"
+    see_all_lcase: "see all"
+    enter_full_screen: 'Enter full screen'
+    exit_full_screen: 'Exit full screen'
+    got_it: "Got It"
+    please_wait: "Please wait..."
+    are_you_sure: "Are you sure?"
+    there_was_an_error: "There was an error: %{err}"
+    a_yes: "Yes"
+    a_no: "No"
+    external_navigation_notice: Confirm Navigation
+    external_navigation_message: "You’re about to leave this site. Are you sure you want to continue?"
+    optional_in_parenthesis: "(optional)"
+    iframe:
+      timeout: "Page loading is taking too long. Please try again later."
+      url_parse: "We seem to have encountered an issue with the URL. Please contact support."
+      private_connection: "Provided URL is not valid. This action will be logged."
+      404_error: "Our apologies. It appears that this customer does not have this feature at this time. Please contact support"
+      unknown_error: "Our apologies. We seem to have encountered an unexpected error. Please contact support."
+    not_saved_error:
+      one: "An error prevented this record from being saved:"
+      other: "%{count} errors prevented this record from being saved:"
+    lorem: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    fill_all_required: "Please fill in all required fields."
+    field_required: "This field is required."
+    please_fix_the_errors: Please fix the errors below.
+    invitation_success: Invitation sent successfully
+    somet_thing_went_wrong: Something went wrong
+    invalid_invitation: Invalid invitation
+    max_retry_limit: "You've reached forward invitation limit."
+    enter_valid_email: Please enter valid email address
+    levels:
+      high: "High"
+    name: "Name"
+    code: "Code"
+    status: "Status"
+    title: "Title"
+    disabled: "Disabled"
+    enabled: "Enabled"
+    validate: "Validate"
+    verified: "Verified"
+    not_verified: "Not verified"
+    continue: Continue
+    no_thanks: "No Thanks"
+    sms: "SMS"
+    two_factor_authenticator_app: "Two Factor Authenticator App"
+    two_factor_recovery_codes: "Two Factor Recovery Codes"
+    active: Active
+    deactivated: Deactivated
+    finish: Finish
+    contact: Contact
+    details: View Details
+    view_all: View All
+    done: Done
+    actions: Actions
+    help: help
+    pending: Pending
+    invalid: Invalid
+    valid: Valid
+    set_by_supplier: "Changes may update your profile information with your customers."
+    you_need_to_login: "You need to log in."
+    select_placeholder_single: "Select an Option"
+    select_no_results: "No results match"
+    recommended: "Recommended"
+    info: "Info"
+    note: "Note"
+    toggle: Toggle
+    please_confirm: Please Confirm
+    no_results_found: No events found
+    start: Start
+    resume: Resume
+    take_me_there: Take Me There
+    powered_by: Powered By
+    address:
+      street1: "Address Line 1"
+      street2: "Address Line 2"
+      city: "City"
+      state: "State"
+      postal_code: "Postal Code"
+      country_code: "Country"
+    prev: "Prev"
+    per_page: "Per page"
+  letter_case_mode:
+    titleize_light: :titleize
+    titleize_wrapper: :titleize
+    letter_case_for_interpolation: :downcase
+  global_menu_structure:
+    home: Home
+    profile: Profile
+    order: Orders
+    order_lines: Order Lines
+    order_changes: Order Changes
+    order_line_changes: Order Line Changes
+    payments: Payments
+    invoice_payments: Invoice Payments
+    po_payments: PO Payments
+    pay_me_now: Early Payments
+    service: Service/Time Sheets
+    service_lines: Service/Time Sheets Lines
+    asn: ASN
+    add_ons: Add-ons
+    business_performance: Business Performance
+    admin: Admin
+    payment_receipts: Payment Receipts
+    invoices: Invoices
+    catalogs: Catalogs
+    users: Users
+    merge_requests: Merge Requests
+    legal_entity_setup: Legal Entity Setup
+    fiscal_representatives: Fiscal Representatives
+    remit_to: Remit-To
+    terms_of_use: Terms of Use
+    coupa_accelerate_preferences: Static Discounting
+    payment_preferences: Payment Preferences
+    sftp_accounts: SFTP Accounts
+    cxml_errors: cXML Errors
+    your_public_profile: "Your Public Profile"
+    your_customer_profile: "Your Customer Profiles"
+    dynamic_discounting_preferences: Dynamic Discounting
+    shipments: Shipments
+    return_requests: Returns
+    customer_transaction_setup: Customer Setup
+    sourcing: Sourcing
+    public_sourcing_events: Public Sourcing Events

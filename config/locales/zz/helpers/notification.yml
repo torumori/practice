@@ -1,0 +1,81 @@
+en:
+  notification:
+    error:
+      no_message: "No message found"
+    user:
+      new_connection: "You are now connected to %{customer}"
+    profile:
+      update_public_profile: "Update your company's Public Profile"
+      update_profile_for: "Update your profile for %{customer}"
+      profile_update_reminder: Complete Your Profile to Get Paid Faster and Get Discovered
+      pending_sim_profiles: You have existing information requests that have not been updated with your current profile information. You can update these requests with your information now.
+    invoice_header:
+      new_invoice_header_comment: "New comment from %{customer} on Invoice %{invoice}"
+      new_credit_note_comment: "New comment from %{customer} on Credit Note %{invoice}"
+      invoice_paid: "Invoice %{invoice} for %{amount} has been marked as paid by %{customer}"
+      credit_note_paid: "Credit Note %{invoice} for %{amount} has been marked as paid by %{customer}"
+      invoice_approved: "Invoice %{invoice} for %{amount} has been approved to pay by %{customer}."
+      credit_note_approved: "Credit Note %{invoice} for %{amount} has been approved to pay by %{customer}."
+      invoice_disputed: "Invoice %{invoice} for %{amount} has been disputed by %{customer}."
+      credit_note_disputed: "Credit Note %{invoice} for %{amount} has been disputed by %{customer}."
+      invoice_abandoned: Invoice %{invoice} for %{amount} has been abandoned by %{customer}.
+      credit_note_abandoned: Credit Note %{invoice} for %{amount} has been abandoned by %{customer}.
+      invoice_dispute_withdrawn: "Invoice %{invoice} for %{amount} has been withdrawn from dispute by %{customer}."
+      credit_note_dispute_withdrawn: "Credit Note %{invoice} for %{amount} has been withdrawn from dispute by %{customer}."
+      legal_invoice_export: "Your requested file of legal invoices has been generated and is available to download."
+    order_header:
+      new_order_header_comment: "New comment from %{customer} on %{po}"
+      new_po: "New PO %{po} for %{amount} issued by %{customer}."
+      new_po_hide_price: "New PO %{po} issued by %{customer}."
+      po_canceled: "PO #%{po} from %{customer} has been canceled"
+    order_header_change:
+      rejected: "%{company_name} rejected your change request - PO #%{po_number}."
+    catalog:
+      new_catalog_comment: "New comment from %{customer} on %{catalog}"
+      accepted: "Catalog %{catalog} has been approved by %{customer}."
+      rejected: "Catalog %{catalog} has been rejected by %{customer}."
+      expired: "Catalog %{catalog} with %{customer} will expire in 30 days."
+    easy_form_response:
+      approved: "The Supplier Information you submitted was approved by %{customer}."
+      rejected: "The Supplier Information you submitted was rejected by %{customer}."
+      submitted: "A company information update was recently sent to your customer."
+      reminders:
+        send_reminder: "First reminder from %{customer}: Your information request is still pending."
+        send_first_harsh_reminder: "Second reminder from %{customer}: Your information request is still pending."
+        send_second_harsh_reminder: "Third reminder from %{customer}: Your information request is still pending."
+        send_warning: "Final reminder from %{customer}: Your information request is still pending."
+        close_sim_response: "Expired: %{customer} cancelled their request. If you'd like to work with them, please contact them to ask for the form."
+      new_comment: 'New SIM comment received'
+    tou_signoff:
+      new_tou: "You have a new terms of use to accept by %{customer}"
+    work_confirmation:
+      accepted: "Service/Time Sheets %{work_confirmation} has been approved."
+      rejected: "Service/Time Sheets %{work_confirmation} has been rejected."
+    coupa_accelerate:
+      accelerate_enabled: "%{customer} can pay your invoices faster using Coupa Accelerate. Update your preferences."
+    coupa_pay:
+      digital_check_ready: "%{customer} sent you a digital check for %{amount} %{currency} for payment #%{payment_id}."
+      supplier_virtual_card_created: "A virtual credit card ending in %{card_number} has been generated with all the necessary details to pay %{document_type}: %{document_number} issued by %{customer}."
+      purchase_order: Purchase Order
+      invoice_payment: Invoice Payment
+      card_acquirers:
+        stripe: Stripe
+      supplier_virtual_card_re_created: "A virtual credit card ending in %{card_number} has been generated with all the necessary details to pay %{document_type}: %{document_number} issued by %{customer}."
+      supplier_virtual_card_reminder: "The following %{document_type}: %{document_numbers} have virtual cards which do not appear to have been sufficiently used."
+      supplier_payment_role_granted_to_new_user: "A user, %{new_user_full_name}, has been granted the Payment role, which allows him access to see sensitive payment details."
+      supplier_virtual_card_processing_failure: "We could not automatically charge the virtual credit card ending in %{card_number} using %{acquirer_name} for %{document_type}: %{document_number}."
+      remittance_advice_on_payment_for_bank_transfer: "%{customer_name} has sent you a payment of %{payment_total_with_currency} using Coupa Pay to your bank %{bank_account_reference_number}."
+      remittance_advice_on_payment_for_virtual_card: "%{customer_name} has sent you a payment of %{payment_total_with_currency} using a Coupa Pay virtual card ending in %{virtual_card_number}."
+      remittance_advice_on_payment_with_zero_amount: "%{customer_name} has sent you a payment of %{payment_total_with_currency} using Coupa Pay."
+    announcement:
+      new: "<b>%{subject}</b> (%{customer}) </br> %{message}"
+    integration:
+      cxml_error: "Encountered cXML error for %{customer}"
+    earlyPaymentRequest:
+      title: "Dynamic Discounting"
+      early_payment_request_matched: "The Early Payment Request #%{request_number} for %{buyer_company_name} is approved and you should expect to be paid in %{due_days} days"
+      early_payment_request_rejected: "The Early Payment Request #%{request_number} has been rejected by %{buyer_company_name}. You can resubmit the EPR with the same or different discount rate."
+      early_payment_request_expired: "Early Payment Request #%{request_number} for %{buyer_company_name} has expired"
+      early_payment_request_paid: "Early Payment Request #%{request_number} for %{buyer_company_name} has been paid"
+    business_performance:
+      business_performance_role_granted: "You have been granted Business Performance role."
